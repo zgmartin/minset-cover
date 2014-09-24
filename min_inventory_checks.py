@@ -1,4 +1,4 @@
-from data import Data
+from objects import Data
 from algorithms import greedy
 import sys
 import time
