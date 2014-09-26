@@ -4,7 +4,7 @@
 This is a program to determine the minimum number of inventory checks that covers ALL PRODUCTS at ALL STORES.
 
 #####input:
-data (Jason)
+stores and zip codes (Jason file)
 
 #####output:
 minimum number of inventory checks (min list of zip codes)
