@@ -32,8 +32,7 @@ We've posted a JSON-formatted sample inventory reading for a single product at a
 
 ####Problem Id:
 minimum set cover
-
-info known:
+#####info known:
 NP hard problem (approximation algorithms and heuristics)
 
 ####Example:
