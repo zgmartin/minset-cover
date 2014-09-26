@@ -37,7 +37,7 @@ info known:
 NP hard problem (approximation algorithms and heuristics)
 
 ####Example:
-<img src = "./minset-cover.svg">
+<img src = "./minset-cover.svg" width="300" height="200"/>
 
 ###Strategy:
 greedy
