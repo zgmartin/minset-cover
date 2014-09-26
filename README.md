@@ -13,9 +13,9 @@ stores and zip codes (Jason file)
 minimum number of inventory checks (min list of zip codes)
 
 ###Run:
-cd /dir/of/inventor/location
+`cd /dir/of/inventor/location`
 
-python min_inventory_checks.py ./data/*
+`python min_inventory_checks.py ./data/*`
 
 ###Info:
 I determined that zip codes are the relevant information in this problem because zip codes are the keys to doing the minimum number of inventory checks at all stores. 
