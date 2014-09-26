@@ -1,11 +1,11 @@
-##Minimum Inventory Check
+##Min Set Cover
+<img src = "./info/minset-cover.png">
 
 ###About: 
 This is a program to determine the minimum number of inventory checks that covers ALL PRODUCTS at ALL STORES.
 
 #####input:
 stores and zip codes (Jason file)
-
 #####output:
 minimum number of inventory checks (min list of zip codes)
 
