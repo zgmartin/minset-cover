@@ -2,18 +2,15 @@
 <img src = "./info/minset-cover.png">
 
 ###About: 
-
 #####name:
 min_inventory_checks
+#####function:
+This is a program to determine the minimum number of inventory checks that covers ALL PRODUCTS at ALL STORES.
 
 #####input:
 stores and zip codes (Jason file)
-
 #####output:
 minimum number of inventory checks (min list of zip codes)
-
-#####function:
-This is a program to determine the minimum number of inventory checks that covers ALL PRODUCTS at ALL STORES.
 
 ###Run:
 cd /dir/of/inventor/location
