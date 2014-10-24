@@ -1,22 +1,6 @@
 from objects import Data
 from algorithms import greedy
 import sys
-import time
-
-
-def main():
-    """Receives file input from terminal and prints the minimum inventory checks."""
-
-    args = sys.argv
-
-    print '\nmin inventory checks \n'
-    for x in range(1 , len(args)):
-
-        file_name = args[x]
-        start_time = time.time()
-
-        print 'store', x, ':', min_inventory_check(file_name)
-        print 'time:', time.time() - start_time, '\n'
 
 
 def min_inventory_check(file_name):
@@ -33,4 +17,11 @@ def min_inventory_check(file_name):
 
 
 if __name__ == '__main__':
-    main()
+    args = sys.argv
+
+    print 'min inventory checks: \n'
+    for x in range(1 , len(args)):
+
+        file_name = args[x]
+
+        print 'store', x, ':', min_inventory_check(file_name)
