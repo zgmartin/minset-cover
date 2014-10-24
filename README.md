@@ -1,5 +1,5 @@
 ##Min Set Cover
-<img src = "./info/minset-cover.png">
+<img src = "./about/minset-cover.png">
 
 ###About: 
 #####name:
@@ -39,7 +39,7 @@ minimum set cover
 NP hard problem (approximation algorithms and heuristics)
 
 ####Example:
-<img src = "./info/minset-cover.png">
+<img src = "./about/minset-cover.png">
 
 ###Strategy:
 greedy

@@ -11,9 +11,9 @@ def min_inventory_check(file_name):
     input_data.extract_data(file_name)
 
     #runs greedy algorithm on data
-    min_number_inventory_checks = greedy(input_data.all_stores, input_data.zips) 
+    min_num = greedy(input_data.all_stores, input_data.zips) 
 
-    return min_number_inventory_checks
+    return min_num
 
 
 if __name__ == '__main__':
