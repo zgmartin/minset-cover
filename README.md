@@ -7,7 +7,7 @@
     * input: stores and zip codes (Jason file)
     * output: minimum number of inventory checks (min list of zip codes)
 
-###Info:
+##Info:
 I determined that __zip codes__ are the relevant information in this problem because zip codes are the __keys__ to doing the minimum number of inventory checks at all stores. 
 
 If you are smart in selecting the zip codes to enter into the the company site, you will end up with fewer inventory checks every day at all stores. From the JSON data given in the problem you can improve the number of inventory checks performed every day at specific stores by identifying and storing the minimum number of zip codes that __cover__ the set of __all stores__. 
