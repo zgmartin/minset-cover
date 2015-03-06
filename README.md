@@ -8,13 +8,13 @@
     * output: minimum number of inventory checks (min list of zip codes)
 
 ###Info:
-I determined that zip codes are the relevant information in this problem because zip codes are the keys to doing the minimum number of inventory checks at all stores. 
+I determined that __zip codes__ are the relevant information in this problem because zip codes are the __keys__ to doing the minimum number of inventory checks at all stores. 
 
-If you are smart in selecting the zip codes to enter into the the company site, you will end up with fewer inventory checks every day at all stores. From the JSON data given in the problem you can improve the number of inventory checks performed every day at specific stores by storing and identifying the minimum number of zip codes that cover the set of all stores. 
+If you are smart in selecting the zip codes to enter into the the company site, you will end up with fewer inventory checks every day at all stores. From the JSON data given in the problem you can improve the number of inventory checks performed every day at specific stores by identifying and storing the minimum number of zip codes that __cover__ the set of __all stores__. 
 
-This problem is known as a more generalized problem called the minimum set cover problem, which is the mapping of subsets onto a universal set. Every zip code contained a set that maps to the universal set of stores, so minimizing this this will also minimize the number of inventory checks on a daily basis at store websites. 
+This problem is known more generally as the __minimum set cover__ problem, which is the mapping of subsets onto a universal set. Every zip code contains a set that maps to the universal set of stores, so minimizing this this will also minimize the number of inventory checks on a daily basis at store websites. 
 
-This problem has been proven to be NP hand, so there exist no polynomial time algorithm, but approximation and heuristics can be used to obtain better performance.       
+This problem has been proven to be __NP hard__, so there exist no polynomial time algorithm, but approximation and heuristics can be used to obtain better performance.       
 
 
 ##Problem:
